@@ -1,0 +1,30 @@
+{
+  "homepage": ".",
+  "name": "control-panel",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.1.2",
+    "@types/reactstrap": "^6.4.3",
+    "bootstrap": "4.1.1",
+    "deep-diff": "^1.0.2",
+    "gh-pages": "^1.2.0",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.23",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-moment": "^0.7.9",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "reactstrap": "^6.3.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
